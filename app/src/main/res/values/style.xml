@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomnavText" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/sky</item>
+    </style>
+    
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:textColorPrimary">@color/sky</item>
+        <item name="colorPrimary">@color/dark_blue</item>
+    </style>
+</resources>
