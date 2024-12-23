@@ -91,7 +91,7 @@
                 android:layout_marginBottom="20sp"
                 android:textColor="@color/white"
                 android:textAllCaps="false"
-                android:background="@drawable/button_background_blue"/>
+                android:background="@drawable/button_background_filled"/>
 
         </LinearLayout>
 

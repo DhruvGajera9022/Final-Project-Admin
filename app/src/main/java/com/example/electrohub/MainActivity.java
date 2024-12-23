@@ -15,6 +15,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.electrohub.Fragments.CategoryFragment;
+import com.example.electrohub.Fragments.HomeFragment;
+import com.example.electrohub.Fragments.OrderFragment;
+import com.example.electrohub.Fragments.SettingFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -27,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
+
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
         setContentView(R.layout.activity_main);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -44,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this,Add_Product_Activity.class);
                 startActivity(i);
-               // overridePendingTransition(R.anim.slide_up_in,R.anim.slide_up_out);
+                // overridePendingTransition(R.anim.slide_up_in,R.anim.slide_up_out);
             }
         });
 

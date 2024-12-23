@@ -39,6 +39,8 @@ dependencies {
     androidTestImplementation libs.espresso.core
     implementation "androidx.coordinatorlayout:coordinatorlayout:1.2.0"
     implementation 'com.google.android.material:material:1.12.0'
+    implementation "com.cloudinary:cloudinary-android:2.1.0"
+    implementation 'com.google.firebase:firebase-firestore:25.1.1'
 
 
 }

@@ -2,4 +2,127 @@
     <string name="app_name">Electro Hub</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="category">
+        <item>Mobile</item>
+        <item>TV</item>
+        <item>Laptop</item>
+        <item>Headphone</item>
+        <item>AirBuds</item>
+        <item>Speaker</item>
+        <item>Keyboard</item>
+        <item>Mouse</item>
+        <item>Camera</item>
+        <item>SmartWatch</item>
+        <item>Tablet</item>
+    </string-array>
+
+    <string-array name="Mobile">
+        <item>Oppo</item>
+        <item>Vivo</item>
+        <item>Realme</item>
+        <item>Motorola</item>
+        <item>Apple</item>
+        <item>Samsung</item>
+        <item>Iqoo</item>
+        <item>OnePlus</item>
+        <item>Xiaomi</item>
+        <item>Redmi</item>
+        <item>Poco</item>
+        <item>Nothing</item>
+    </string-array>
+
+    <string-array name="TV">
+        <item>Samsung</item>
+        <item>LG</item>
+        <item>Xiaomi</item>
+        <item>TCL</item>
+    </string-array>
+
+    <!-- Laptop Brands -->
+    <string-array name="Laptop">
+        <item>HP</item>
+        <item>Dell</item>
+        <item>Lenovo</item>
+        <item>Acer</item>
+        <item>Asus</item>
+        <item>Apple</item>
+        <item>MSI</item>
+    </string-array>
+
+    <!-- Headphone Brands -->
+    <string-array name="Headphone">
+        <item>Boat</item>
+        <item>JBL</item>
+        <item>Cosmic Byte</item>
+        <item>Sennheiser</item>
+        <item>Zebronics</item>
+        <item>Sony</item>
+    </string-array>
+
+    <!-- AirBuds Brands -->
+    <string-array name="AirBuds">
+        <item>Realme</item>
+        <item>OnePlus</item>
+        <item>Nothing</item>
+        <item>Boat</item>
+        <item>Trigger</item>
+        <item>Truke</item>
+    </string-array>
+
+    <!-- Speaker Brands -->
+    <string-array name="Speaker">
+        <item>LG</item>
+        <item>Boat</item>
+        <item>Boult</item>
+        <item>JBL</item>
+    </string-array>
+
+    <!-- Keyboard Brands -->
+    <string-array name="Keyboard">
+        <item>HP</item>
+        <item>Dell</item>
+        <item>Lenovo</item>
+        <item>Zebronics</item>
+        <item>Logitech</item>
+    </string-array>
+
+    <!-- Mouse Brands -->
+    <string-array name="Mouse">
+        <item>HP</item>
+        <item>Dell</item>
+        <item>Lenovo</item>
+        <item>Zebronics</item>
+        <item>Logitech</item>
+    </string-array>
+
+    <!-- Camera Brands -->
+    <string-array name="Camera">
+        <item>Nikon</item>
+        <item>Canon</item>
+        <item>Sony</item>
+        <item>Fujifilm</item>
+        <item>Panasonic</item>
+    </string-array>
+
+    <!-- SmartWatch Brands -->
+    <string-array name="Smartwatch">
+        <item>Apple</item>
+        <item>Samsung</item>
+        <item>Noise</item>
+        <item>Firebolt</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Tablet Brands -->
+    <string-array name="Tablet">
+        <item>Realme</item>
+        <item>Apple</item>
+        <item>Samsung</item>
+        <item>OnePlus</item>
+        <item>Xiaomi</item>
+        <item>Redmi</item>
+        <item>Poco</item>
+    </string-array>
+
 </resources>

@@ -37,7 +37,8 @@
                 app:elevation="0sp"
                 app:itemIconTint="@color/item_selector"
                 app:itemTextColor="@color/item_selector"
-                app:labelVisibilityMode="labeled"
+                app:labelVisibilityMode="selected"
+                app:itemRippleColor="@color/sky"
                 app:menu="@menu/bottom_navigation_menu" />
 
         </com.google.android.material.bottomappbar.BottomAppBar>
@@ -56,7 +57,7 @@
             app:tint="@color/white"
             app:backgroundTint="@color/sky"
             app:rippleColor="@color/sky"
-            app:maxImageSize="25sp"/>
+            app:maxImageSize="35sp"/>
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

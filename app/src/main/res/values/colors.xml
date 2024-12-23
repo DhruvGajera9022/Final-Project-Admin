@@ -9,6 +9,7 @@
     <color name="red">#FF1818</color>
     <color name="green">#4DFF54</color>
     <color name="backgroun">#F2F2F2</color>
+    <color name="transparent">#00FFFFFF</color>
 
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#000</color>
@@ -24,4 +25,5 @@
     <color name="blue">#2E7EFF</color>
     <color name="blue1">#0061FF</color>
     <color name="dark_blue">#010D61</color>
+    <color name="dark_blue_hint">#CC010D61</color>
 </resources>
